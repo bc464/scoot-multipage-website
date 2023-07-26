@@ -19,6 +19,14 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+}
 h1 {
   font-family: "Space Mono", monospace;
   color: var(--primary-dimGrey);
@@ -69,10 +77,11 @@ p {
   width: 195px;
   height: 53px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
   background-color: var(--primary-yellow);
   color: #fff;
-  text-align: center;
   font-family: "Space Mono", monospace;
   font-size: 15px;
   font-style: normal;

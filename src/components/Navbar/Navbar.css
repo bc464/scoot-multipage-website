@@ -1,0 +1,24 @@
+.nav-content {
+  margin: 22px 10% 21px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-content__left {
+  display: flex;
+  align-items: center;
+  column-gap: 58px;
+}
+.nav-links {
+  margin-right: 32px;
+  text-decoration: none;
+  color: var(--primary-dimGrey);
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  cursor: pointer;
+}
+.nav-links:hover {
+  color: var(--primary-yellow);
+}

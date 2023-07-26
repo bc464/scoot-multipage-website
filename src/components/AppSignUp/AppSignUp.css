@@ -1,0 +1,42 @@
+.appSignUp-container {
+  background-color: var(--primary-darkNavy);
+  position: relative;
+  overflow-x: hidden;
+}
+.semi-circles {
+  position: absolute;
+  bottom: 0;
+  right: -150px;
+}
+.appSignUp-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10%;
+  padding: 102px 0;
+}
+.appSignUp-content h2 {
+  color: #fff;
+}
+.appSignUp-icons {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .appSignUp-content {
+    flex-direction: column;
+    row-gap: 40px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .appSignUp-content {
+    margin: 0 5%;
+  }
+  .appSignUp-content h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}

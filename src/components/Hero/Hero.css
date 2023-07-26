@@ -1,0 +1,10 @@
+.hero-container {
+  position: relative;
+}
+.hero-img {
+  width: 100%;
+}
+.hero-content {
+  position: absolute;
+  top: 0;
+}
