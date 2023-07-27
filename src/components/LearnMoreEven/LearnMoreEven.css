@@ -1,5 +1,5 @@
 .learn-more__container {
-  margin-bottom: 100px;
+  margin: 100px 0;
   position: relative;
   overflow-x: hidden;
 }
@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 1024px) {
   .learn-more__content {
-    column-gap: 100px;
+    column-gap: 140px;
   }
 }
 
@@ -45,7 +45,7 @@
   }
 }
 @media only screen and (max-width: 425px) {
-  .circle-img {
+  .circle-img-even {
     display: none;
   }
   .learn-more__content {

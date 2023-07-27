@@ -1,9 +1,136 @@
 .map-container {
   margin: 100px 0;
+  position: relative;
 }
 .map-content {
   margin: 0 10%;
 }
 .map-img {
   width: 100%;
+}
+/* Tooltip container */
+.tooltip-ny {
+  position: absolute;
+  top: 90px;
+  left: 300px;
+}
+.tooltip-london {
+  position: absolute;
+  top: 17px;
+  left: 39%;
+}
+.tooltip-yoko {
+  position: absolute;
+  top: 90px;
+  right: 400px;
+}
+.tooltip-jakarta {
+  position: absolute;
+  top: 260px;
+  right: 490px;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 189px;
+  height: 72px;
+  background-color: var(--primary-yellow);
+  color: var(--primary-darkNavy);
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -20px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: var(--primary-yellow) transparent transparent transparent;
+}
+
+/* Placename Container for MObile visibility */
+.placename-container {
+  display: none;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: center;
+}
+.placename-box {
+  width: 311px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(252, 182, 43, 0.1);
+  color: var(--primary-darkNavy);
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+}
+@media only screen and (max-width: 1024px) {
+  .tooltip-ny {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+  }
+  .tooltip-london {
+    position: absolute;
+    top: -15px;
+    left: 37%;
+  }
+  .tooltip-yoko {
+    position: absolute;
+    top: 30px;
+    right: 310px;
+  }
+  .tooltip-jakarta {
+    position: absolute;
+    top: 160px;
+    right: 375px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tooltip .tooltiptext {
+    width: 120px;
+    height: 32px;
+  }
+  .tooltip-ny {
+    position: absolute;
+    top: 40px;
+    left: 160px;
+  }
+  .tooltip-london {
+    position: absolute;
+    top: 10px;
+    left: 38%;
+  }
+  .tooltip-yoko {
+    position: absolute;
+    top: 45px;
+    right: 220px;
+  }
+  .tooltip-jakarta {
+    position: absolute;
+    top: 135px;
+    right: 270px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .tooltip {
+    display: none;
+  }
+  .placename-container {
+    display: flex;
+    margin-top: 40px;
+  }
 }

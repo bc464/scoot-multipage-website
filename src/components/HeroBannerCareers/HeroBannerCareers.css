@@ -1,0 +1,20 @@
+.hero-banner__container {
+  position: relative;
+  overflow-x: hidden;
+}
+.hero-banner-img {
+  width: 100%;
+}
+.hero-banner__content {
+  position: absolute;
+
+  top: 0;
+  display: flex;
+  padding: 72px 0 72px 10%;
+  align-items: center;
+  column-gap: 870px;
+}
+
+.hero-banner__content h1 {
+  color: #fff;
+}

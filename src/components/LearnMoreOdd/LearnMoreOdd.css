@@ -9,7 +9,7 @@
 
   z-index: -1;
 }
-.learn-more__content {
+.learn-more__content-odd {
   margin: 0 10%;
 
   display: flex;
@@ -34,21 +34,21 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .learn-more__content {
-    flex-direction: column-reverse;
+  .learn-more__content-odd {
+    flex-direction: column;
     row-gap: 50px;
     text-align: center;
     align-items: center;
   }
-  .learn-more__content button {
+  .learn-more__content-odd button {
     align-self: center;
   }
 }
 @media only screen and (max-width: 425px) {
-  .circle-img {
+  .circle-img-odd {
     display: none;
   }
-  .learn-more__content {
+  .learn-more__content-odd {
     margin: 0 5%;
   }
   .lm-even__content {

@@ -1,0 +1,28 @@
+.careerbox-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.careerbox-content {
+  margin: 24px 10% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-snow);
+  padding: 38px 64px 37px 40px;
+}
+@media only screen and (max-width: 768px) {
+  .careerbox-content {
+    margin: 24px 5%;
+    padding: 38px 48px 37px 40px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .careerbox-content {
+    flex-direction: column;
+    row-gap: 16px;
+    text-align: center;
+  }
+  .btn {
+    width: 247px !important;
+  }
+}

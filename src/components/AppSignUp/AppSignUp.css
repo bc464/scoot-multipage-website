@@ -2,6 +2,7 @@
   background-color: var(--primary-darkNavy);
   position: relative;
   overflow-x: hidden;
+  margin-top: 160px;
 }
 .semi-circles {
   position: absolute;
