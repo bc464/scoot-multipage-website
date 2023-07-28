@@ -1,0 +1,13 @@
+.location-content {
+  column-gap: 845px;
+}
+@media only screen and (max-width: 1024px) {
+  .location-content {
+    column-gap: 465px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .location-content {
+    column-gap: 240px;
+  }
+}

@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import { useState } from 'react'
 import ScrollToTop from "./components/ScrollToTop"
 import NoPage from "./pages/NoPage"
@@ -16,13 +17,13 @@ function App() {
     <BrowserRouter >
     <ScrollToTop />
       <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route  path="/" element={<Layout />} >
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="careers" element={<Careers />} />
           <Route path="locations" element={<Locations />} />
           <Route path="*" element={<NoPage />} />
-        </Route>
+          </Route >
       </Routes>
     </BrowserRouter>
   )

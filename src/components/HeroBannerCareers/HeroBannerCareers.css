@@ -8,13 +8,38 @@
 .hero-banner__content {
   position: absolute;
 
-  top: 0;
+  top: 70px;
+  left: 10%;
   display: flex;
-  padding: 72px 0 72px 10%;
-  align-items: center;
-  column-gap: 870px;
 }
-
+.careers-location {
+  column-gap: 877px;
+}
 .hero-banner__content h1 {
   color: #fff;
+}
+@media only screen and (max-width: 1024px) {
+  .hero-banner__content {
+    top: 40px;
+  }
+  .careers-location {
+    column-gap: 497px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero-banner__content {
+    top: 65px;
+  }
+  .careers-location {
+    column-gap: 272px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .hb__content-img {
+    display: none;
+  }
+  .hero-banner__content {
+    top: 45px;
+    left: 20%;
+  }
 }

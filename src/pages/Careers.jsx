@@ -5,6 +5,7 @@ import Footer from '../components/Footer/Footer'
 import LearnMoreEven from '../components/LearnMoreEven/LearnMoreEven'
 import CareerBox from '../components/CareerBox/CareerBox'
 import HeroBannerCareers from '../components/HeroBannerCareers/HeroBannerCareers'
+import Values from '../components/Values/Values'
 
 const Careers = () => {
   return (
@@ -12,7 +13,7 @@ const Careers = () => {
       <Navbar />
       <HeroBannerCareers heading={"Careers"}/>
       <LearnMoreEven heading={"Care to join our mission?"} text={"We’re always looking for ambitious individuals to help us on our journey. If you’re passionate about our mission to provide clean, accessible transport to improve urban living we want to hear from you!"} src={"./assets/images/join-us.jpg"} />
-
+      <Values heading="Why join us?" />
       <CareerBox heading={"General Manager"} text={"Jakarta, Indonesia"}/>
       <CareerBox heading={"UI/UX Designer"} text={"Yokohama, Japan"}/>
       <CareerBox heading={"Blog Content Copywriter"} text={"New York, United States"}/>

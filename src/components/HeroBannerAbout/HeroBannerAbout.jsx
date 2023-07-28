@@ -1,4 +1,5 @@
 import React from 'react'
+import "./HeroBannerAbout.css"
 
 const HeroBannerAbout = () => {
   return (
@@ -10,7 +11,7 @@ const HeroBannerAbout = () => {
         srcSet="./assets/images/about-hero-tablet.jpg" />      
         <img src='./assets/images/about-hero-mobile.jpg' alt="hero-banner-mobile" className="hero-banner-img"/>
       </picture>
-      <div className='hero-banner__content'>
+      <div className='hero-banner__content about-location'>
         <h1>About</h1>
         <div className='hb__content-img'>
         <img src='./assets/patterns/white-circles.svg' alt="semi circles" />

@@ -1,4 +1,5 @@
 import React from 'react'
+import "./HeroBannerLocation.css"
 
 const HeroBannerLocation = () => {
   return (
@@ -10,7 +11,7 @@ const HeroBannerLocation = () => {
         srcSet="./assets/images/careers-locations-hero-tablet.jpg" />      
         <img src='./assets/images/careers-location-hero-mobile.jpg' alt="hero-banner-mobile" className="hero-banner-img"/>
       </picture>
-      <div className='hero-banner__content'>
+      <div className='hero-banner__content location-content'>
         <h1>Location</h1>
         <div className='hb__content-img'>
         <img src='./assets/patterns/white-circles.svg' alt="semi circles" />

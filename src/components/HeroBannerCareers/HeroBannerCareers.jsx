@@ -12,7 +12,7 @@ const HeroBannerCareers = ({heading}) => {
         srcSet="./assets/images/careers-locations-hero-tablet.jpg" />      
         <img src='./assets/images/careers-location-hero-mobile.jpg' alt="hero-banner-mobile" className="hero-banner-img"/>
       </picture>
-      <div className='hero-banner__content'>
+      <div className='hero-banner__content careers-location'>
         <h1>{heading}</h1>
         <div className='hb__content-img'>
         <img src='./assets/patterns/white-circles.svg' alt="semi circles" />
