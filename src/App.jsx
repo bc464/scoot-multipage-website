@@ -17,11 +17,11 @@ function App() {
     <BrowserRouter >
     <ScrollToTop />
       <Routes>
-      <Route  path="/" element={<Layout />} >
+      <Route  path="/scoot-multipage-website/" element={<Layout />} >
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="careers" element={<Careers />} />
-          <Route path="locations" element={<Locations />} />
+          <Route path="/scoot-multipage-website/about" element={<About />} />
+          <Route path="/scoot-multipage-website/careers" element={<Careers />} />
+          <Route path="/scoot-multipage-website/locations" element={<Locations />} />
           <Route path="*" element={<NoPage />} />
           </Route >
       </Routes>

@@ -15,9 +15,9 @@ const Navbar = () => {
         <Link to='../'><img src='./assets/logo.svg' alt='logo' ></img></Link>
         
         <div >
-            <Link to='../about' className="nav-links">About</Link>
-            <Link to='../locations' className="nav-links">Location</Link>
-            <Link to='../careers' className="nav-links">Careers</Link>
+            <Link to='/scoot-multipage-website/about' className="nav-links">About</Link>
+            <Link to='/scoot-multipage-website/locations' className="nav-links">Location</Link>
+            <Link to='/scoot-multipage-website/careers' className="nav-links">Careers</Link>
         </div>
         
         </div>
