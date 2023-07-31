@@ -21,11 +21,13 @@
   row-gap: 16px;
 }
 .accordion-content__box {
+  width: 770px;
   display: flex;
   flex-direction: column;
   row-gap: 24px;
   padding: 32px 40px;
   background-color: var(--secondary-snow);
+  cursor: pointer;
 }
 .ac-heading {
   display: flex;
@@ -37,6 +39,9 @@
   .accordion-container {
     margin: 0 5% 160px 5%;
   }
+  .accordion-content__box {
+    width: 540px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .accordion-box {
@@ -46,5 +51,16 @@
   .accordion-box h3 {
     width: 100%;
     text-align: center;
+  }
+  .accordion-content__box {
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .accordion-content__box {
+    width: 360px;
+  }
+  .ac-heading h4 {
+    font-size: 20px;
   }
 }
