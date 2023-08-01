@@ -16,6 +16,9 @@ const LearnMoreEven = ({heading, text, src}) => {
                 <img className='lm-content__img' src={src} alt={heading} />
             </div>
         </div>
+        <div className='learn-more__arrow'>
+          <img src="./assets/patterns/left-downward-arrow.svg" alt="left down arrow" />
+        </div>
 
     </div>
   )

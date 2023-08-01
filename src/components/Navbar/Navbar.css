@@ -22,3 +22,10 @@
 .nav-links:hover {
   color: var(--primary-yellow);
 }
+
+@media only screen and (max-width: 425px) {
+  .navbar-links,
+  .nav-content button {
+    display: none;
+  }
+}

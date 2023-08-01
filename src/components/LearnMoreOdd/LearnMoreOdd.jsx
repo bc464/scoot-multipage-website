@@ -18,6 +18,9 @@ const LearnMoreOdd = ({heading, text, src}) => {
             </div>
             
         </div>
+        <div className='learn-more__right-arrow'>
+          <img src="./assets/patterns/right-arrow.svg" alt="right arrow" />
+        </div>
 
     </div>
   )

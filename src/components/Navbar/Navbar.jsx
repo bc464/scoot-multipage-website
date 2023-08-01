@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className='nav-content__left'>
         <Link to='../'><img src='./assets/logo.svg' alt='logo' ></img></Link>
         
-        <div >
+        <div className='navbar-links' >
             <Link to='/scoot-multipage-website/about' className="nav-links">About</Link>
             <Link to='/scoot-multipage-website/locations' className="nav-links">Location</Link>
             <Link to='/scoot-multipage-website/careers' className="nav-links">Careers</Link>

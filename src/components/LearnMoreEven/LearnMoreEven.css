@@ -10,7 +10,7 @@
   z-index: -1;
 }
 .learn-more__content {
-  margin: 0 10%;
+  margin: 10px 10% 55px;
 
   display: flex;
   align-items: center;
@@ -26,10 +26,16 @@
   border-radius: 50%;
   width: 100%;
 }
+.learn-more__arrow {
+  position: absolute;
+  top: 360px;
+  right: 0;
+}
 
 @media only screen and (max-width: 1024px) {
   .learn-more__content {
     column-gap: 140px;
+    margin-bottom: 140px;
   }
 }
 
@@ -53,5 +59,9 @@
   }
   .lm-even__content {
     width: 325px;
+  }
+  .learn-more__arrow {
+    top: 190px;
+    right: -390px;
   }
 }

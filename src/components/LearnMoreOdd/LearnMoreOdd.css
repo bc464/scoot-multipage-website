@@ -26,6 +26,11 @@
   border-radius: 50%;
   width: 100%;
 }
+.learn-more__right-arrow {
+  position: absolute;
+  top: 10px;
+  left: -130px;
+}
 
 @media only screen and (max-width: 1024px) {
   .learn-more__content {
@@ -53,5 +58,8 @@
   }
   .lm-even__content {
     width: 325px;
+  }
+  .learn-more__right-arrow {
+    left: -200px;
   }
 }
