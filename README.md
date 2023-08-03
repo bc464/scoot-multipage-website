@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [(https://github.com/bc464/scoot-multipage-website/tree/main)](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://bc464.github.io/scoot-multipage-website/](https://your-live-site-url.com)
 
 ## My process
 
