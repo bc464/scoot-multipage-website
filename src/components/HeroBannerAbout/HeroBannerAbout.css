@@ -11,3 +11,8 @@
     column-gap: 335px;
   }
 }
+@media only screen and (max-width: 425px) {
+  .about-location h1 {
+    align-items: center;
+  }
+}

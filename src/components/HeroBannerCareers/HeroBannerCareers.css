@@ -7,10 +7,11 @@
 }
 .hero-banner__content {
   position: absolute;
-
   top: 70px;
   left: 10%;
   display: flex;
+
+  z-index: 20;
 }
 .careers-location {
   column-gap: 877px;
@@ -39,7 +40,16 @@
     display: none;
   }
   .hero-banner__content {
-    top: 45px;
+    top: 50px;
+    left: 27%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .hero-banner__content {
+    top: 35px;
     left: 20%;
+  }
+  .hero-banner__content ~ h1 {
+    left: 10%;
   }
 }

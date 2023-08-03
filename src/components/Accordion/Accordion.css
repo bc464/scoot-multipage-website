@@ -58,9 +58,16 @@
 }
 @media only screen and (max-width: 425px) {
   .accordion-content__box {
-    width: 360px;
+    width: 340px;
+    margin: 0 auto;
+    padding: 25px;
   }
   .ac-heading h4 {
     font-size: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .accordion-content__box {
+    width: 280px;
   }
 }

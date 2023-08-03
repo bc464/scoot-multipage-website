@@ -1,16 +1,19 @@
-.nav-content {
+.navbar {
   margin: 22px 10% 21px 10%;
+}
+
+.nav-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .nav-content__left {
   display: flex;
   align-items: center;
-  column-gap: 58px;
+
+  column-gap: 120%;
 }
 .nav-links {
-  margin-right: 32px;
+  margin-left: 32px;
   text-decoration: none;
   color: var(--primary-dimGrey);
   font-family: "Space Mono", monospace;
@@ -22,10 +25,100 @@
 .nav-links:hover {
   color: var(--primary-yellow);
 }
+/* Mobile Menu  */
+.hamburger-icon {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  display: none;
+}
+.mobile-nav {
+  background-color: #333a44;
+  position: absolute;
+  top: 80px;
+  width: 256px;
+  left: -300px;
+  height: 603px;
+  z-index: 20;
+  transition: 1s ease-out;
+}
+.mobile-nav__open {
+  background-color: #333a44;
+  position: absolute;
+  top: 80px;
+  width: 256px;
+  left: 0px;
+  height: 603px;
+  z-index: 20;
+  transition: 1s ease-in;
+}
+.mobile-nav__content {
+  position: relative;
+  z-index: 20;
+  padding: 64px 0px 24px 32px;
+
+  display: flex;
+  flex-direction: column;
+}
+.mobile-nav__content li {
+  margin-bottom: 30px;
+  list-style: none;
+}
+.mobile-nav__links {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  cursor: pointer;
+}
+.mobile-btn {
+  width: 195px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: var(--primary-yellow);
+  color: #fff;
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  border: none;
+  cursor: pointer;
+  margin-top: 130%;
+}
+.mobile-btn:hover {
+  color: var(--primary-yellow);
+  background-color: #fff;
+  border: 1px solid var(--primary-yellow);
+}
+@media only screen and (max-width: 1024px) {
+  .nav-content__left {
+    column-gap: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nav-content__left {
+    column-gap: 15%;
+  }
+}
 
 @media only screen and (max-width: 425px) {
-  .navbar-links,
-  .nav-content button {
+  .navbar {
+    margin: 22px 10% 21px 0;
+  }
+
+  .nav-content {
+    justify-content: center;
+  }
+  .nav-content__left {
     display: none;
+  }
+  .hamburger-icon {
+    display: block;
   }
 }

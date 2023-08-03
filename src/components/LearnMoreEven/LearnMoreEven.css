@@ -5,12 +5,11 @@
 }
 .circle-img-even {
   position: absolute;
-  right: -360px;
-
-  z-index: -1;
+  top: 40px;
+  right: -340px;
 }
 .learn-more__content {
-  margin: 10px 10% 55px;
+  margin: 50px 10% 30px;
 
   display: flex;
   align-items: center;
@@ -55,13 +54,24 @@
     display: none;
   }
   .learn-more__content {
-    margin: 0 5%;
-  }
-  .lm-even__content {
-    width: 325px;
+    margin: 0 auto;
+    width: 350px;
   }
   .learn-more__arrow {
     top: 190px;
     right: -390px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .learn-more__content {
+    width: 180px;
+  }
+  .lm-even__content p {
+    margin: 0 auto;
+    width: 250px;
+  }
+  .learn-more__arrow {
+    top: 50px;
+    right: -480px;
   }
 }

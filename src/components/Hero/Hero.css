@@ -92,3 +92,11 @@
     left: -300px;
   }
 }
+@media only screen and (max-width: 320px) {
+  .hero-content {
+    width: 260px;
+  }
+  .hero-img {
+    height: 650px;
+  }
+}
